@@ -1,0 +1,46 @@
+Two sum
+Tokenize a string
+String length
+String concatenation
+Steady squares
+Sorting algorithms/Bubble sort
+Show the (decimal) value of a number of 1s appended with a 3, then squared
+Remove vowels from a string
+Repeat a string
+Rainbow
+Piprimes
+Pollard's rho algorithm
+Permutations with some identical elements
+Numbers k whose divisor sum is equal to the divisor sum of k + 1
+Numbers with prime digits whose sum is 13
+O'Halloran numbers
+Modulinos
+Loops/Break
+Loops/Foreach
+Linux CPU utilization
+Logical operations
+Long stairs
+L-system
+Kahan summation
+Increment a numerical string
+Integer comparison
+Integer sequence
+Hierholzer's algorithm
+Greatest prime dividing the n-th cubefree number
+Greatest common divisor
+Find prime numbers of the form n*n*n+2
+Find square difference
+Filter
+Factors of an integer
+Euclidean rhythm
+Double Twin Primes
+Count the occurrence of each digit in e
+Conditional structures
+Copy a string
+Centre and radius of a circle passing through 3 points in a plane
+Boolean values
+Array concatenation
+Append numbers at same position in strings
+Apply a callback to an array
+24 game/Solve
+10001th prime
