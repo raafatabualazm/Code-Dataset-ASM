@@ -1,0 +1,4 @@
+main
+if
+isPrime
+digit_sum

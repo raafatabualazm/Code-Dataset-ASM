@@ -1,0 +1,10 @@
+{
+  "file": "call-a-function.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  // Function definition\n  // See the \"Function definition\" task for more info\n  void noArgs() {}\n  void fixedArgs(int arg1, int arg2) {}\n  void optionalArgs([int arg1 = 1]) {}\n  void namedArgs({required int arg1}) {}\n  int returnsValue() {return 1;}\n\n  // Calling a function that requires no arguments\n  noArgs();\n\n  // Calling a function with a fixed number of arguments\n  fixedArgs(1, 2);\n\n  // Calling a function with optional arguments\n  optionalArgs();\n  optionalArgs(2);\n\n  // Calling a function with named arguments\n  namedArgs(arg1: 1);\n\n  // Using a function in statement context\n  if (true) {\n    noArgs();\n  }\n\n  // Obtaining the return value of a function\n  var value = returnsValue();\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a118 <+0>:\tpush   rbp\n   0x000000000008a119 <+1>:\tmov    rbp,rsp\n   0x000000000008a11c <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a120 <+8>:\tjbe    0x8a130 <main+24>\n   0x000000000008a126 <+14>:\tcall   0x7dfec <_httpConnectionHook.<anonymous closure>>\n   0x000000000008a12b <+19>:\tmov    rsp,rbp\n   0x000000000008a12e <+22>:\tpop    rbp\n   0x000000000008a12f <+23>:\tret\n   0x000000000008a130 <+24>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a137 <+31>:\tjmp    0x8a126 <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

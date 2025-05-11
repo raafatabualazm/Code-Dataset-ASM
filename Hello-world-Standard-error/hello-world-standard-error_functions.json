@@ -1,0 +1,10 @@
+{
+  "file": "hello-world-standard-error.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  stderr.writeln('Goodbye, World!');\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x0000000000090b00 <+0>:\tpush   rbp\n   0x0000000000090b01 <+1>:\tmov    rbp,rsp\n   0x0000000000090b04 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x0000000000090b08 <+8>:\tjbe    0x90b24 <main+36>\n   0x0000000000090b0e <+14>:\tcall   0x90fec <stderr>\n   0x0000000000090b13 <+19>:\tmov    rdi,rax\n   0x0000000000090b16 <+22>:\tcall   0x90b30 <_StdSink.writeln>\n   0x0000000000090b1b <+27>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x0000000000090b1f <+31>:\tmov    rsp,rbp\n   0x0000000000090b22 <+34>:\tpop    rbp\n   0x0000000000090b23 <+35>:\tret\n   0x0000000000090b24 <+36>:\tcall   QWORD PTR [r14+0x230]\n   0x0000000000090b2b <+43>:\tjmp    0x90b0e <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "penneys-game.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  // Dart does not need srand, Random() creates a new seeded random number generator.\n  final game = Penney();\n  game.gameLoop();\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000009ee4c <+0>:\tpush   rbp\n   0x000000000009ee4d <+1>:\tmov    rbp,rsp\n   0x000000000009ee50 <+4>:\tsub    rsp,0x8\n   0x000000000009ee54 <+8>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000009ee58 <+12>:\tjbe    0x9ee81 <main+53>\n   0x000000000009ee5e <+18>:\tcall   0xa1980 <new Penney>\n   0x000000000009ee63 <+23>:\tmov    rdi,rax\n   0x000000000009ee66 <+26>:\tmov    QWORD PTR [rbp-0x8],rax\n   0x000000000009ee6a <+30>:\tcall   0xa1730 <new Penney>\n   0x000000000009ee6f <+35>:\tmov    rdi,QWORD PTR [rbp-0x8]\n   0x000000000009ee73 <+39>:\tcall   0x9ee8c <Penney.gameLoop>\n   0x000000000009ee78 <+44>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000009ee7c <+48>:\tmov    rsp,rbp\n   0x000000000009ee7f <+51>:\tpop    rbp\n   0x000000000009ee80 <+52>:\tret\n   0x000000000009ee81 <+53>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000009ee88 <+60>:\tjmp    0x9ee5e <main+18>\nEnd of assembler dump.\n"
+    }
+  ]
+}

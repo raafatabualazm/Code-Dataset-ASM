@@ -1,0 +1,10 @@
+{
+  "file": "loops-while-1.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  var val = 1024;\n  while (val > 0) {\n    print(val);\n    val >>= 1;\n  }\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a154 <+0>:\tpush   rbp\n   0x000000000008a155 <+1>:\tmov    rbp,rsp\n   0x000000000008a158 <+4>:\tsub    rsp,0x10\n   0x000000000008a15c <+8>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a160 <+12>:\tjbe    0x8a1af <main+91>\n   0x000000000008a166 <+18>:\tmov    eax,0x400\n   0x000000000008a16b <+23>:\tmov    QWORD PTR [rbp-0x8],rax\n   0x000000000008a16f <+27>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a173 <+31>:\tjbe    0x8a1b8 <main+100>\n   0x000000000008a179 <+37>:\tcmp    rax,0x0\n   0x000000000008a17d <+41>:\tjle    0x8a1a6 <main+82>\n   0x000000000008a183 <+47>:\tmov    rcx,rax\n   0x000000000008a186 <+50>:\tadd    rcx,rcx\n   0x000000000008a189 <+53>:\tmov    QWORD PTR [rsp],rcx\n   0x000000000008a18d <+57>:\tcall   0x58e50 <_StringBase._interpolateSingle>\n   0x000000000008a192 <+62>:\tmov    rdi,rax\n   0x000000000008a195 <+65>:\tcall   0x8a1c4 <printToConsole>\n   0x000000000008a19a <+70>:\tmov    rcx,QWORD PTR [rbp-0x8]\n   0x000000000008a19e <+74>:\tsar    rcx,1\n   0x000000000008a1a1 <+77>:\tmov    rax,rcx\n   0x000000000008a1a4 <+80>:\tjmp    0x8a16b <main+23>\n   0x000000000008a1a6 <+82>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a1aa <+86>:\tmov    rsp,rbp\n   0x000000000008a1ad <+89>:\tpop    rbp\n   0x000000000008a1ae <+90>:\tret\n   0x000000000008a1af <+91>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a1b6 <+98>:\tjmp    0x8a166 <main+18>\n   0x000000000008a1b8 <+100>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a1bf <+107>:\tjmp    0x8a179 <main+37>\nEnd of assembler dump.\n"
+    }
+  ]
+}

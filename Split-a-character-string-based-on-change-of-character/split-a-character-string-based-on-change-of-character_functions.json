@@ -1,0 +1,10 @@
+{
+  "file": "split-a-character-string-based-on-change-of-character.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  print(split(\"gHHH5  ))YY++,,,///\\\\\", \", \"));\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a20c <+0>:\tpush   rbp\n   0x000000000008a20d <+1>:\tmov    rbp,rsp\n   0x000000000008a210 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a214 <+8>:\tjbe    0x8a230 <main+36>\n   0x000000000008a21a <+14>:\tcall   0x8a2d8 <split>\n   0x000000000008a21f <+19>:\tmov    rdi,rax\n   0x000000000008a222 <+22>:\tcall   0x8a23c <print>\n   0x000000000008a227 <+27>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a22b <+31>:\tmov    rsp,rbp\n   0x000000000008a22e <+34>:\tpop    rbp\n   0x000000000008a22f <+35>:\tret\n   0x000000000008a230 <+36>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a237 <+43>:\tjmp    0x8a21a <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

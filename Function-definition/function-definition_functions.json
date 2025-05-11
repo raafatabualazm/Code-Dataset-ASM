@@ -1,0 +1,10 @@
+{
+  "file": "function-definition.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "main(){\n    print(multiply(1,2));\n    print(multiply2(1,2));\n    print(multiply3(1,2));\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a154 <+0>:\tpush   rbp\n   0x000000000008a155 <+1>:\tmov    rbp,rsp\n   0x000000000008a158 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a15c <+8>:\tjbe    0x8a18f <main+59>\n   0x000000000008a162 <+14>:\tmov    rdi,QWORD PTR [r15+0x17f7]\n   0x000000000008a169 <+21>:\tcall   0x8a198 <printToConsole>\n   0x000000000008a16e <+26>:\tmov    rdi,QWORD PTR [r15+0x17f7]\n   0x000000000008a175 <+33>:\tcall   0x8a198 <printToConsole>\n   0x000000000008a17a <+38>:\tmov    rdi,QWORD PTR [r15+0x17f7]\n   0x000000000008a181 <+45>:\tcall   0x8a198 <printToConsole>\n   0x000000000008a186 <+50>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a18a <+54>:\tmov    rsp,rbp\n   0x000000000008a18d <+57>:\tpop    rbp\n   0x000000000008a18e <+58>:\tret\n   0x000000000008a18f <+59>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a196 <+66>:\tjmp    0x8a162 <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

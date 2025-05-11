@@ -1,0 +1,16 @@
+side
+naivePointInTriangle
+if
+pointInTriangleBoundingBox
+distanceSquarePointToSegment
+if
+accuratePointInTriangle
+if
+if
+if
+if
+if
+printTriangle
+test
+if
+main

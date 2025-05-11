@@ -1,0 +1,10 @@
+{
+  "file": "array-length.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "main() {\n  var fruits = ['apple', 'orange'];\n  print(arrLength(fruits));\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a174 <+0>:\tpush   rbp\n   0x000000000008a175 <+1>:\tmov    rbp,rsp\n   0x000000000008a178 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a17c <+8>:\tjbe    0x8a195 <main+33>\n   0x000000000008a182 <+14>:\tmov    edi,0x2\n   0x000000000008a187 <+19>:\tcall   0x8a1a0 <print>\n   0x000000000008a18c <+24>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a190 <+28>:\tmov    rsp,rbp\n   0x000000000008a193 <+31>:\tpop    rbp\n   0x000000000008a194 <+32>:\tret\n   0x000000000008a195 <+33>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a19c <+40>:\tjmp    0x8a182 <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "copy-stdin-to-stdout.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  var line = stdin.readLineSync();\n  stdout.write(line);\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000009ee10 <+0>:\tpush   rbp\n   0x000000000009ee11 <+1>:\tmov    rbp,rsp\n   0x000000000009ee14 <+4>:\tsub    rsp,0x8\n   0x000000000009ee18 <+8>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000009ee1c <+12>:\tjbe    0x9ee4d <main+61>\n   0x000000000009ee22 <+18>:\tcall   0xa0f10 <stdin>\n   0x000000000009ee27 <+23>:\tmov    rdi,rax\n   0x000000000009ee2a <+26>:\tcall   0x9f610 <Stdin.readLineSync>\n   0x000000000009ee2f <+31>:\tmov    QWORD PTR [rbp-0x8],rax\n   0x000000000009ee33 <+35>:\tcall   0x9f32c <stdout>\n   0x000000000009ee38 <+40>:\tmov    rdi,rax\n   0x000000000009ee3b <+43>:\tmov    rsi,QWORD PTR [rbp-0x8]\n   0x000000000009ee3f <+47>:\tcall   0x9ee58 <_StdSink._write>\n   0x000000000009ee44 <+52>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000009ee48 <+56>:\tmov    rsp,rbp\n   0x000000000009ee4b <+59>:\tpop    rbp\n   0x000000000009ee4c <+60>:\tret\n   0x000000000009ee4d <+61>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000009ee54 <+68>:\tjmp    0x9ee22 <main+18>\nEnd of assembler dump.\n"
+    }
+  ]
+}

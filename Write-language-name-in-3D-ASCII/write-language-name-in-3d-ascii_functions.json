@@ -1,0 +1,10 @@
+{
+  "file": "write-language-name-in-3d-ascii.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main(){\n print(\"\"\"\n\n XXX       XX       XXX     XXXX\n  X   X    X    X     X    X      X\n   X   X    XXXX      XXX        X\n    XXX      X    X      X   X      X\n  \"\"\".replaceAll('X','_/'));\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a154 <+0>:\tpush   rbp\n   0x000000000008a155 <+1>:\tmov    rbp,rsp\n   0x000000000008a158 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a15c <+8>:\tjbe    0x8a18d <main+57>\n   0x000000000008a162 <+14>:\tmov    rdi,QWORD PTR [r15+0x17f7]\n   0x000000000008a169 <+21>:\tmov    rsi,QWORD PTR [r15+0x17ff]\n   0x000000000008a170 <+28>:\tmov    rdx,QWORD PTR [r15+0x1807]\n   0x000000000008a177 <+35>:\tcall   0x62fa8 <_StringBase.replaceAll>\n   0x000000000008a17c <+40>:\tmov    rdi,rax\n   0x000000000008a17f <+43>:\tcall   0x8a198 <print>\n   0x000000000008a184 <+48>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a188 <+52>:\tmov    rsp,rbp\n   0x000000000008a18b <+55>:\tpop    rbp\n   0x000000000008a18c <+56>:\tret\n   0x000000000008a18d <+57>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a194 <+64>:\tjmp    0x8a162 <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

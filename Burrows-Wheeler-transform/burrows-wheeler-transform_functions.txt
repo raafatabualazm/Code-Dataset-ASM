@@ -1,0 +1,8 @@
+main
+for
+bwt
+if
+ibwt
+for
+if
+makePrintable

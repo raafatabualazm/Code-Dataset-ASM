@@ -1,0 +1,10 @@
+{
+  "file": "loops-for-with-a-specified-step.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "main() {\n  for (int i = 1; i <= 21; i += 2) print(i);\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a154 <+0>:\tpush   rbp\n   0x000000000008a155 <+1>:\tmov    rbp,rsp\n   0x000000000008a158 <+4>:\tsub    rsp,0x10\n   0x000000000008a15c <+8>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a160 <+12>:\tjbe    0x8a1bc <main+104>\n   0x000000000008a166 <+18>:\tmov    ecx,0x1\n   0x000000000008a16b <+23>:\tmov    QWORD PTR [rbp-0x8],rcx\n   0x000000000008a16f <+27>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a173 <+31>:\tjbe    0x8a1c5 <main+113>\n   0x000000000008a179 <+37>:\tcmp    rcx,0x15\n   0x000000000008a17d <+41>:\tjg     0x8a1b3 <main+95>\n   0x000000000008a183 <+47>:\tmov    rax,rcx\n   0x000000000008a186 <+50>:\tadd    rax,rax\n   0x000000000008a189 <+53>:\tjno    0x8a198 <main+68>\n   0x000000000008a18f <+59>:\tcall   0x84ef0 <stub _iso_stub_AllocateMintSharedWithoutFPURegsStub>\n   0x000000000008a194 <+64>:\tmov    QWORD PTR [rax+0x7],rcx\n   0x000000000008a198 <+68>:\tmov    QWORD PTR [rsp],rax\n   0x000000000008a19c <+72>:\tcall   0x58e50 <_StringBase._interpolateSingle>\n   0x000000000008a1a1 <+77>:\tmov    rdi,rax\n   0x000000000008a1a4 <+80>:\tcall   0x8a1d0 <printToConsole>\n   0x000000000008a1a9 <+85>:\tmov    rcx,QWORD PTR [rbp-0x8]\n   0x000000000008a1ad <+89>:\tadd    rcx,0x2\n   0x000000000008a1b1 <+93>:\tjmp    0x8a16b <main+23>\n   0x000000000008a1b3 <+95>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a1b7 <+99>:\tmov    rsp,rbp\n   0x000000000008a1ba <+102>:\tpop    rbp\n   0x000000000008a1bb <+103>:\tret\n   0x000000000008a1bc <+104>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a1c3 <+111>:\tjmp    0x8a166 <main+18>\n   0x000000000008a1c5 <+113>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a1cc <+120>:\tjmp    0x8a179 <main+37>\nEnd of assembler dump.\n"
+    }
+  ]
+}

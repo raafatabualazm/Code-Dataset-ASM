@@ -1,0 +1,6 @@
+factorial
+if
+isWilsonPrime
+if
+main
+if

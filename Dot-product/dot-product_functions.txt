@@ -1,0 +1,3 @@
+dot
+if
+main

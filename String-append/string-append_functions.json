@@ -1,0 +1,10 @@
+{
+  "file": "string-append.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  String str = \"Hello\";\n  str = str + \" World!\";\n  print(str);\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a154 <+0>:\tpush   rbp\n   0x000000000008a155 <+1>:\tmov    rbp,rsp\n   0x000000000008a158 <+4>:\tsub    rsp,0x10\n   0x000000000008a15c <+8>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a160 <+12>:\tjbe    0x8a193 <main+63>\n   0x000000000008a166 <+18>:\tmov    r11,QWORD PTR [r15+0x17f7]\n   0x000000000008a16d <+25>:\tmov    QWORD PTR [rsp+0x8],r11\n   0x000000000008a172 <+30>:\tmov    r11,QWORD PTR [r15+0x17ff]\n   0x000000000008a179 <+37>:\tmov    QWORD PTR [rsp],r11\n   0x000000000008a17d <+41>:\tcall   0x5c3d0 <_StringBase.+>\n   0x000000000008a182 <+46>:\tmov    rdi,rax\n   0x000000000008a185 <+49>:\tcall   0x8a19c <print>\n   0x000000000008a18a <+54>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a18e <+58>:\tmov    rsp,rbp\n   0x000000000008a191 <+61>:\tpop    rbp\n   0x000000000008a192 <+62>:\tret\n   0x000000000008a193 <+63>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a19a <+70>:\tjmp    0x8a166 <main+18>\nEnd of assembler dump.\n"
+    }
+  ]
+}

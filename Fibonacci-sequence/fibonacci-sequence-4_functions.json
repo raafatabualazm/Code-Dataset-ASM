@@ -1,0 +1,10 @@
+{
+  "file": "fibonacci-sequence-4.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() => print(fibonacci().take(20));",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a2a4 <+0>:\tpush   rbp\n   0x000000000008a2a5 <+1>:\tmov    rbp,rsp\n   0x000000000008a2a8 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a2ac <+8>:\tjbe    0x8a2d0 <main+44>\n   0x000000000008a2b2 <+14>:\tcall   0x8a3d0 <fibonacci>\n   0x000000000008a2b7 <+19>:\tmov    rdi,rax\n   0x000000000008a2ba <+22>:\tcall   0x8a370 <Iterable.take>\n   0x000000000008a2bf <+27>:\tmov    rdi,rax\n   0x000000000008a2c2 <+30>:\tcall   0x8a2dc <print>\n   0x000000000008a2c7 <+35>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a2cb <+39>:\tmov    rsp,rbp\n   0x000000000008a2ce <+42>:\tpop    rbp\n   0x000000000008a2cf <+43>:\tret\n   0x000000000008a2d0 <+44>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a2d7 <+51>:\tjmp    0x8a2b2 <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

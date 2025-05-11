@@ -1,0 +1,10 @@
+{
+  "file": "character-codes.dart",
+  "functions": [
+    {
+      "name": "main",
+      "source": "void main() {\n  const string = 'D';\n  print(string.runes.first);\n  var out = String.fromCharCode(67);\n  print(out);\n}",
+      "assembly": "Dump of assembler code for function main:\n   0x000000000008a20c <+0>:\tpush   rbp\n   0x000000000008a20d <+1>:\tmov    rbp,rsp\n   0x000000000008a210 <+4>:\tcmp    rsp,QWORD PTR [r14+0x38]\n   0x000000000008a214 <+8>:\tjbe    0x8a26d <main+97>\n   0x000000000008a21a <+14>:\tmov    rdi,QWORD PTR [r15+0x17f7]\n   0x000000000008a221 <+21>:\tcall   0x8a364 <_StringBase.runes>\n   0x000000000008a226 <+26>:\tmov    rdi,rax\n   0x000000000008a229 <+29>:\tcall   0x8a314 <Iterable.first>\n   0x000000000008a22e <+34>:\tmov    rcx,rax\n   0x000000000008a231 <+37>:\tmov    rax,rcx\n   0x000000000008a234 <+40>:\tadd    rax,rax\n   0x000000000008a237 <+43>:\tjno    0x8a246 <main+58>\n   0x000000000008a23d <+49>:\tcall   0x84fa8 <stub _iso_stub_AllocateMintSharedWithoutFPURegsStub>\n   0x000000000008a242 <+54>:\tmov    QWORD PTR [rax+0x7],rcx\n   0x000000000008a246 <+58>:\tmov    rdi,rax\n   0x000000000008a249 <+61>:\tcall   0x8a278 <print>\n   0x000000000008a24e <+66>:\tmov    rdi,QWORD PTR [r14+0x70]\n   0x000000000008a252 <+70>:\tmov    esi,0x43\n   0x000000000008a257 <+75>:\tcall   0x5d6c4 <new String.fromCharCode>\n   0x000000000008a25c <+80>:\tmov    rdi,rax\n   0x000000000008a25f <+83>:\tcall   0x8a278 <print>\n   0x000000000008a264 <+88>:\tmov    rax,QWORD PTR [r14+0x70]\n   0x000000000008a268 <+92>:\tmov    rsp,rbp\n   0x000000000008a26b <+95>:\tpop    rbp\n   0x000000000008a26c <+96>:\tret\n   0x000000000008a26d <+97>:\tcall   QWORD PTR [r14+0x230]\n   0x000000000008a274 <+104>:\tjmp    0x8a21a <main+14>\nEnd of assembler dump.\n"
+    }
+  ]
+}

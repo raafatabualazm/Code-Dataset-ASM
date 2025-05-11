@@ -1,0 +1,13 @@
+Penney.gameLoop
+Penney.while
+Penney.if
+Penney.if
+Penney.computer
+Penney.if
+Penney.player
+Penney.play
+Penney.while
+Penney.if
+Penney.showWinner
+Penney.if
+main

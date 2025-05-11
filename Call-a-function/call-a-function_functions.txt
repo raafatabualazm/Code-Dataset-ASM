@@ -1,0 +1,7 @@
+main
+noArgs
+fixedArgs
+optionalArgs
+namedArgs
+returnsValue
+if
